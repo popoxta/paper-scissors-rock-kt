@@ -8,7 +8,7 @@ enum class Players {
 }
 
 // unneeded, can use ordinal but this is nice
-enum class Weapon(public val value: Int) {
+enum class Weapon(val value: Int) {
     Rock(0),
     Paper(1),
     Scissors(2)
