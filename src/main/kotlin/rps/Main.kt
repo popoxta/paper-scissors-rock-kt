@@ -22,7 +22,7 @@ enum class Results {
 
 fun main() {
 
-    val scores = mutableMapOf<Players, Int>(Computer to 0, Player to 0)
+    val scores = mutableMapOf(Computer to 0, Player to 0)
     var currentTurn = 0
 
     while (scores[Player] != 3 && scores[Computer] != 3) {
